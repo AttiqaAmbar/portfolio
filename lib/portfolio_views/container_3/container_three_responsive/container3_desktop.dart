@@ -32,37 +32,30 @@ class _ContainerthreeDesktopState extends State<ContainerthreeDesktop> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ProjectWidget(
-                  projectName: 'Project One',
+                  projectName: 'Project One FaceBook',
                   projectDetails:
-                  'A Flutter app built for cross-platform mobile development, featuring state management with GetX and Firebase for data storage.'),
+                  'FaceBook clone  made with flutter for mobile app development skills excepting features and functonalities.  '),
               ProjectWidget(
-                  projectName: 'Project Two',
+                  projectName: 'Project Two Calculator',
                   projectDetails:
-                  'A Dart backend API integration project that handles dynamic user data and real-time operations using Firebase Cloud Functions.'),
+                  'Perform basic arithmetic operations with ease.THIS SIMPLE CALCULATOR simple calculator app allows you to quickly calculate sums,differences,products and quotients.'),
               ProjectWidget(
-                  projectName: 'Project Three',
+                  projectName: 'Project Three GoldApp',
                   projectDetails:
-                  'An eCommerce Flutter app with full API integration for product listings, cart management, and secure payments.'),
-            ],
+                  'Gold Vault is your one-stop-shop for all things gold.Buy,sell,and track the value of gold with ease.'),
+             ],
           ),
           SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ProjectWidget(
-                  projectName: 'Project Four',
+                  projectName: 'Project Four Currency converter',
                   projectDetails:
-                  'A social media app developed using Flutter, with real-time chat functionality, push notifications, and Firebase backend.'),
-              ProjectWidget(
-                  projectName: 'Project Five',
-                  projectDetails:
-                  'A personal blog website using Flutter Web, allowing users to create, edit, and share blog posts with real-time comments and reactions.'),
-              ProjectWidget(
-                  projectName: 'Project Six',
-                  projectDetails:
-                  'A portfolio website designed using Flutter Web to showcase my skills, projects, and expertise in mobile development.'),
+                  'Easily convert currencies on-the-go.This currency converter exchange rates for over currencies worldwide.'),
             ],
           ),
+
         ],
       ),
     );
